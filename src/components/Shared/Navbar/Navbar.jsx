@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router';
-import logo from '../../../assets/images/logo-flat.png';
+import logo from '../../../assets/images/logo12.png';
 import avatarImg from '../../../assets/images/placeholder.jpg';
 import useAuth from '../../../hooks/useAuth';
 import Container from '../Container';
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
             {/* Logo */}
             <Link to="/">
-              <img src={logo} alt="logo" width="100" height="100" />
+              <img src={logo} alt="logo" width="180" height="100" />
             </Link>
 
             {/* Center Navigation Links */}
