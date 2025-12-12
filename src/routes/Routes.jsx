@@ -11,7 +11,8 @@ import MyInventory from '../pages/Dashboard/Seller/MyInventory';
 import ErrorPage from '../pages/ErrorPage';
 import Home from '../pages/Home/Home';
 import Login from '../pages/Login/Login';
-import PlantDetails from '../pages/PlantDetails/PlantDetails';
+
+import TuitionDetails from '../pages/TuitionDetails/TuitionDetails';
 import SignUp from '../pages/SignUp/SignUp';
 import PrivateRoute from './PrivateRoute';
 
@@ -26,8 +27,8 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/plant/:id',
-        element: <PlantDetails />,
+        path: '/tuitions/:id',
+        element: <TuitionDetails></TuitionDetails>,
       },
     ],
   },
